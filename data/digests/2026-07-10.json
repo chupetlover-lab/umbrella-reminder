@@ -1,0 +1,192 @@
+{
+  "date": "2026-07-10",
+  "generatedAt": "2026-07-10T00:00:00.000Z",
+  "query": "(sample seed data for layout preview)",
+  "isSample": true,
+  "papers": [
+    {
+      "id": "SAMPLE-001",
+      "pmid": null,
+      "isSample": true,
+      "title_en": "[SAMPLE] Robotic versus laparoscopic gastrectomy for gastric cancer: a multicenter randomized trial",
+      "title_ja": "[サンプル] 胃癌に対するロボット支援下胃切除術 vs 腹腔鏡下胃切除術の多施設RCT",
+      "journal": "Annals of Surgery",
+      "journalTier": 1,
+      "pubDate": "2026-07-09",
+      "authors": ["Sample A", "Sample B", "Sample C"],
+      "doi": null,
+      "url": "",
+      "abstract_en": "This is placeholder sample text used only to preview the app layout. It does not describe a real study. In an actual digest, the original English abstract fetched from PubMed will appear here.",
+      "summary_ja": [
+        "サンプル: ロボット支援下手術群で術後合併症率が低下したという想定の要約文です。",
+        "サンプル: 手術時間はロボット群でやや長い一方、出血量は少なかったという想定です。",
+        "サンプル: 長期予後(5年生存率)は両群で同等だったという想定です。"
+      ],
+      "impactScore": 97.5,
+      "structured": {
+        "studyType": "ランダム化比較試験(RCT)",
+        "organ": "胃",
+        "procedure": "胃切除術",
+        "approach": "ロボット支援",
+        "sampleSize": 482,
+        "comparison": "ロボット支援下 vs 腹腔鏡下",
+        "keyFinding": "サンプル: ロボット支援下胃切除術は合併症率の低下と関連したという想定の結論です。",
+        "trend": "positive",
+        "statHighlight": "合併症率 -32%(想定値)"
+      },
+      "translationSource": "llm"
+    },
+    {
+      "id": "SAMPLE-002",
+      "pmid": null,
+      "isSample": true,
+      "title_en": "[SAMPLE] Laparoscopic versus open colectomy for right-sided colon cancer",
+      "title_ja": "[サンプル] 右側結腸癌に対する腹腔鏡下 vs 開腹大腸切除術の比較コホート研究",
+      "journal": "British Journal of Surgery",
+      "journalTier": 1,
+      "pubDate": "2026-07-08",
+      "authors": ["Sample D", "Sample E"],
+      "doi": null,
+      "url": "",
+      "abstract_en": "Placeholder abstract text for layout preview purposes only.",
+      "summary_ja": [
+        "サンプル: 腹腔鏡群で入院期間が短縮したという想定の要約です。",
+        "サンプル: 30日死亡率に有意差はなかったという想定です。"
+      ],
+      "impactScore": 78.3,
+      "structured": {
+        "studyType": "コホート研究",
+        "organ": "大腸・直腸",
+        "procedure": "大腸切除術",
+        "approach": "腹腔鏡下",
+        "sampleSize": 1204,
+        "comparison": "腹腔鏡下 vs 開腹",
+        "keyFinding": "サンプル: 有意差なしという想定の中立的な結論です。",
+        "trend": "neutral",
+        "statHighlight": "在院日数 -1.8日(想定値)"
+      },
+      "translationSource": "llm"
+    },
+    {
+      "id": "SAMPLE-003",
+      "pmid": null,
+      "isSample": true,
+      "title_en": "[SAMPLE] Neoadjuvant chemotherapy before pancreaticoduodenectomy: a meta-analysis",
+      "title_ja": "[サンプル] 膵頭十二指腸切除術前の術前化学療法に関するメタ解析",
+      "journal": "JAMA Surgery",
+      "journalTier": 1,
+      "pubDate": "2026-07-07",
+      "authors": ["Sample F", "Sample G", "Sample H", "Sample I"],
+      "doi": null,
+      "url": "",
+      "abstract_en": "Placeholder abstract text for layout preview purposes only.",
+      "summary_ja": [
+        "サンプル: 術前化学療法群でR0切除率が向上したという想定の要約です。",
+        "サンプル: 術後合併症の増加は認めなかったという想定です。"
+      ],
+      "impactScore": 88.1,
+      "structured": {
+        "studyType": "メタ解析",
+        "organ": "膵臓",
+        "procedure": "膵切除術",
+        "approach": "開腹",
+        "sampleSize": 3150,
+        "comparison": "術前化学療法あり vs なし",
+        "keyFinding": "サンプル: R0切除率の改善と関連したという想定の結論です。",
+        "trend": "positive",
+        "statHighlight": "R0切除率 +14pt(想定値)"
+      },
+      "translationSource": "llm"
+    },
+    {
+      "id": "SAMPLE-004",
+      "pmid": null,
+      "isSample": true,
+      "title_en": "[SAMPLE] Endoscopic submucosal dissection for early gastric cancer: long-term outcomes",
+      "title_ja": "[サンプル] 早期胃癌に対する内視鏡的粘膜下層剥離術(ESD)の長期成績",
+      "journal": "Gut",
+      "journalTier": 1,
+      "pubDate": "2026-07-06",
+      "authors": ["Sample J"],
+      "doi": null,
+      "url": "",
+      "abstract_en": "Placeholder abstract text for layout preview purposes only.",
+      "summary_ja": [
+        "サンプル: 5年生存率は外科的切除と同等だったという想定の要約です。"
+      ],
+      "impactScore": 71.4,
+      "structured": {
+        "studyType": "後ろ向き研究",
+        "organ": "胃",
+        "procedure": "内視鏡的粘膜下層剥離術",
+        "approach": "内視鏡的",
+        "sampleSize": 890,
+        "comparison": null,
+        "keyFinding": "サンプル: 良好な長期成績だったという想定の結論です。",
+        "trend": "positive",
+        "statHighlight": "5年生存率 96%(想定値)"
+      },
+      "translationSource": "llm"
+    },
+    {
+      "id": "SAMPLE-005",
+      "pmid": null,
+      "isSample": true,
+      "title_en": "[SAMPLE] Postoperative complications after emergency laparotomy in elderly patients",
+      "title_ja": "[サンプル] 高齢者の緊急開腹手術後の合併症に関する多施設調査",
+      "journal": "World Journal of Surgery",
+      "journalTier": 2,
+      "pubDate": "2026-07-05",
+      "authors": ["Sample K", "Sample L"],
+      "doi": null,
+      "url": "",
+      "abstract_en": "Placeholder abstract text for layout preview purposes only.",
+      "summary_ja": [
+        "サンプル: 高齢群で術後合併症率が高かったという想定の要約です。"
+      ],
+      "impactScore": 52.9,
+      "structured": {
+        "studyType": "多施設研究",
+        "organ": "一般腹部",
+        "procedure": null,
+        "approach": "開腹",
+        "sampleSize": 640,
+        "comparison": "高齢群 vs 非高齢群",
+        "keyFinding": "サンプル: 高齢であることがリスク因子だったという想定の結論です。",
+        "trend": "negative",
+        "statHighlight": "合併症率 +18pt(想定値)"
+      },
+      "translationSource": "heuristic"
+    },
+    {
+      "id": "SAMPLE-006",
+      "pmid": null,
+      "isSample": true,
+      "title_en": "[SAMPLE] Bile duct injury rates after robotic cholecystectomy: a systematic review",
+      "title_ja": "[サンプル] ロボット支援下胆嚢摘出術における胆道損傷率のシステマティックレビュー",
+      "journal": "HPB",
+      "journalTier": 2,
+      "pubDate": "2026-07-04",
+      "authors": ["Sample M", "Sample N", "Sample O"],
+      "doi": null,
+      "url": "",
+      "abstract_en": "Placeholder abstract text for layout preview purposes only.",
+      "summary_ja": [
+        "サンプル: 胆道損傷率は腹腔鏡下手術と同等だったという想定の要約です。"
+      ],
+      "impactScore": 45.2,
+      "structured": {
+        "studyType": "システマティックレビュー",
+        "organ": "胆道",
+        "procedure": "胆嚢摘出術",
+        "approach": "ロボット支援",
+        "sampleSize": 5200,
+        "comparison": "ロボット支援 vs 腹腔鏡下",
+        "keyFinding": "サンプル: 有意差は認められなかったという想定の中立的な結論です。",
+        "trend": "neutral",
+        "statHighlight": "胆道損傷率 差なし(想定値)"
+      },
+      "translationSource": "llm"
+    }
+  ]
+}

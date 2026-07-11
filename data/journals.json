@@ -1,0 +1,33 @@
+{
+  "description": "消化器外科分野の主要誌ティア分類。fetch-digest.mjs のスコアリングと、フロントエンドのバッジ表示の両方で使用する。tier 1 が最上位。",
+  "halfLifeDays": 10,
+  "tierWeight": { "1": 100, "2": 60, "3": 30 },
+  "journals": {
+    "1": [
+      "New England Journal of Medicine",
+      "The Lancet",
+      "JAMA",
+      "JAMA Surgery",
+      "Annals of Surgery",
+      "British Journal of Surgery",
+      "Gut",
+      "Gastroenterology",
+      "Hepatology",
+      "Nature Medicine"
+    ],
+    "2": [
+      "Surgery",
+      "Surgical Endoscopy",
+      "Journal of Gastrointestinal Surgery",
+      "International Journal of Surgery",
+      "HPB",
+      "Diseases of the Colon & Rectum",
+      "World Journal of Surgery",
+      "Annals of Surgical Oncology",
+      "Journal of Hepato-Biliary-Pancreatic Sciences",
+      "American Journal of Surgery",
+      "European Journal of Surgical Oncology",
+      "Endoscopy"
+    ]
+  }
+}

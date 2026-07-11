@@ -1,0 +1,44 @@
+name: Daily PubMed Digest
+
+on:
+  schedule:
+    # 21:00 UTC = 06:00 JST 毎日
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch & summarize latest papers
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: npm run fetch-digest
+
+      - name: Commit updated digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/digests
+          if git diff --cached --quiet; then
+            echo "No new digest content to commit."
+          else
+            git commit -m "chore: daily PubMed digest update"
+            git push
+          fi
